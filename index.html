@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Rewards</title>
+    <title>Playful Rewards</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
         }
 
         body {
-            background: #000000;
+            background: #5B21B6;
             color: white;
             min-height: 100vh;
             padding: 20px;
@@ -117,7 +117,7 @@
         }
 
         .notification .earned {
-            color: #ffffff;
+            color: #FFD700;
             font-weight: 500;
         }
 
@@ -127,8 +127,8 @@
         }
 
         .logo {
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             margin: 20px auto;
             display: block;
         }
@@ -154,7 +154,7 @@
         .progress-fill {
             width: 80%;
             height: 100%;
-            background: #ffffff;
+            background: #FFD700;
             border-radius: 15px;
         }
 
@@ -189,12 +189,12 @@
         .step-check {
             width: 24px;
             height: 24px;
-            background: #ffffff;
+            background: #FFD700;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #000000;
+            color: #5B21B6;
             flex-shrink: 0;
             font-weight: 600;
         }
@@ -225,8 +225,8 @@
         }
 
         .limited-tag {
-            background: #ffffff;
-            color: #000000;
+            background: #FFD700;
+            color: #5B21B6;
             padding: 5px 10px;
             border-radius: 8px;
             font-size: 12px;
@@ -250,8 +250,8 @@
         }
 
         .start-button {
-            background: #ffffff;
-            color: #000000;
+            background: #FFD700;
+            color: #5B21B6;
             border: none;
             width: 100%;
             padding: 20px;
@@ -264,7 +264,7 @@
         }
 
         .start-button:hover {
-            background: rgba(255, 255, 255, 0.9);
+            background: #FFE55C;
             transform: translateY(-2px);
         }
 
@@ -308,15 +308,15 @@
     <div class="mainlander">
         <div class="container">
             <div class="notification" id="notification">
-                <span class="money">💰</span>
-                <span><span id="notif-name"></span> completed <span id="notif-deals"></span> deals and</span>
-                <span class="earned">earned $<span id="notif-amount"></span></span>
+                <span class="money">🎮</span>
+                <span><span id="notif-name"></span> just earned</span>
+                <span class="earned">$<span id="notif-amount"></span></span>
                 <span class="time">· <span id="notif-time"></span></span>
             </div>
 
-            <img src="https://i.imgur.com/5o4tgme.png" alt="Apple" class="logo">
+            <img src="https://i.imgur.com/ViJaUJe.png" alt="Playful" class="logo">
 
-            <h1>Get started below to claim your Apple reward</h1>
+            <h1>Start earning rewards by playing fun games!</h1>
 
             <div class="progress-bar">
                 <div class="progress-fill"></div>
@@ -325,54 +325,47 @@
 
             <div class="steps">
                 <div class="step">
-                    <div class="step-check">✓</div>
+                    <div class="step-check">1</div>
                     <div class="step-content">
-                        <h3>Click on "Start Earning Now"</h3>
-                        <p>(The button below)</p>
+                        <h3>Answer the questions below</h3>
+                        <p>Quick and easy qualification process</p>
                     </div>
                 </div>
                 <div class="step">
-                    <div class="step-check">✓</div>
+                    <div class="step-check">2</div>
                     <div class="step-content">
-                        <h3>Provide a valid email address</h3>
-                        <p>(For notifications and rewards)</p>
+                        <h3>Download the app</h3>
+                        <p>Available for both iOS and Android</p>
                     </div>
                 </div>
                 <div class="step">
-                    <div class="step-check">✓</div>
+                    <div class="step-check">3</div>
                     <div class="step-content">
-                        <h3>Complete at least 2-5 suggested deals</h3>
-                        <p>Most people get $500+ in Apple rewards completing just a few deals!</p>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-check">✓</div>
-                    <div class="step-content">
-                        <h3>Claim your reward & repeat anytime</h3>
-                        <p>Many top users complete multiple deals for bonus rewards</p>
+                        <h3>Sign up and start playing games to earn</h3>
+                        <p>Play fun games and earn real rewards!</p>
                     </div>
                 </div>
             </div>
 
             <div class="bonus-box">
                 <div class="bonus-header">
-                    <span>⏰</span>
-                    <span class="bonus-time">Exclusive offer expires in <span id="countdown">10:00</span></span>
-                    <span class="limited-tag">🔥 LIMITED TIME</span>
+                    <span>🎮</span>
+                    <span class="bonus-time">Special bonus expires in <span id="countdown">10:00</span></span>
+                    <span class="limited-tag">🔥 BONUS</span>
                 </div>
                 <div class="bonus-content">
-                    🎯 First Day Bonus! Complete any 2-5 suggested deals in your first 24 hours and unlock up to a $300 Bonus!
+                    🎯 New Player Bonus! Sign up today and get a $10 welcome bonus instantly!
                 </div>
                 <div class="pro-tip">
-                    💡 Pro strategy: Focus on beginner-friendly deals first. Most new users hit $250+ in their first day by completing suggested offers. Participate daily to keep your streaks going to earn even more!
+                    💡 Pro tip: Complete the daily challenges to earn bonus rewards. Top players earn $100+ daily just by playing their favorite games!
                 </div>
             </div>
 
             <button class="start-button" onclick="window.location.href='[YOUR_REDIRECT_URL]'">
-                START EARNING NOW
+                START PLAYING NOW
             </button>
 
-            <div class="secure-text">🔒 Secure & Confidential</div>
+            <div class="secure-text">🔒 Safe & Secure Gaming</div>
         </div>
     </div>
 
@@ -408,7 +401,7 @@
         ];
 
         function generateAmount() {
-            return (Math.random() * (750 - 500) + 500).toFixed(2);
+            return (Math.random() * (50 - 10) + 10).toFixed(2);
         }
 
         function generateTime() {
@@ -424,7 +417,6 @@
                 document.getElementById('notif-name').textContent = names[Math.floor(Math.random() * names.length)];
                 document.getElementById('notif-amount').textContent = generateAmount();
                 document.getElementById('notif-time').textContent = generateTime();
-                document.getElementById('notif-deals').textContent = Math.floor(Math.random() * 3) + 2;
                 notification.style.opacity = '1';
             }, 500);
         }
